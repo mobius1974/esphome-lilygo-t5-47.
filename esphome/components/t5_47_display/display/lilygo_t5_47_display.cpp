@@ -7,9 +7,9 @@ extern "C" {
 }
 
 namespace esphome {
-namespace lilygo_t5_47 {
+namespace t5_47_display {
 
-static const char *const TAG = "lilygo_t5_47.display";
+static const char *const TAG = "t5_47_display.display";
 
 // Assuming there will be at least one display instance at a time
 // Static initialization to save time on memory allocation in runtime,
@@ -85,5 +85,5 @@ void LilygoT547Display::dump_config() {
 void LilygoT547Display::set_full_update_countdown(uint32_t value) { full_update_countdown_ = value; }
 uint32_t LilygoT547Display::get_full_update_countdown() { return full_update_countdown_; }
 
-}  // namespace lilygo_t5_47
+}  // namespace t5_47_display
 }  // namespace esphome
