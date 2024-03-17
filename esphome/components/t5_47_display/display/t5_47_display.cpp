@@ -1,4 +1,4 @@
-#include "lilygo_t5_47_display.h"
+#include "t5_47_display.h"
 
 #include "esphome/core/log.h"
 #include <string.h>
