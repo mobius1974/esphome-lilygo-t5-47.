@@ -1,5 +1,5 @@
 #pragma once
-#include <Arduino.h>
+
 #include "esphome/components/i2c/i2c.h"
 #include "esphome/components/touchscreen/touchscreen.h"
 #include "esphome/core/automation.h"
