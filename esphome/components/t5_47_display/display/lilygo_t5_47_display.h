@@ -9,7 +9,7 @@
 #include "esphome/core/version.h"
 
 namespace esphome {
-namespace lilygo_t5_47 {
+namespace t5_47_display {
 
 #if ESPHOME_VERSION_CODE >= VERSION_CODE(2023, 12, 0)
 class LilygoT547Display : public display::DisplayBuffer {
@@ -59,5 +59,5 @@ class LilygoT547Display : public PollingComponent, public display::DisplayBuffer
   uint32_t cycles_invert_;
 };
 
-}  // namespace lilygo_t5_47
+}  // namespace t5_47_display
 }  // namespace esphome
